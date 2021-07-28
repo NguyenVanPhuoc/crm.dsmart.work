@@ -1,7 +1,7 @@
 @extends('backends.templates.master')
 @section('title', __('Add new Category'))
 @section('content')
-<div id="create-category" class="container page route abc">
+<div id="create-category" class="container page route">
 	<div class="head">
 		<a href="{{route('mediaCatAdmin')}}" class="back-icon"><i class="fa fa-angle-left" aria-hidden="true"></i>{{ __('All') }}</a>
 		<h1 class="title">{{ __('Add new Category') }}</h1>		
